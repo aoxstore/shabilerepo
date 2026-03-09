@@ -129,9 +129,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Endgame"] = "Treasure Room",
     },
 
-    ["ExtremeFpsBoost"] = false,
-    ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = true,
+    ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
@@ -139,3 +139,4 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 
 }
+
