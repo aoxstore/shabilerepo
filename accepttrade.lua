@@ -138,3 +138,13 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = true,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
+
+
+
+
+
+
+
+
+
+
