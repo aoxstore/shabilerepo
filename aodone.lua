@@ -1,8 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = false,
-        ["Random Result"] = true,
+        ["Auto Perfect"] = true,
+        ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -82,10 +82,12 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
+            "Prismatic I",
+            "Reeler I",
             "Cursed I",
         },
         ["Second Enchant"] = false,
