@@ -1,8 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = true,
-        ["Random Result"] = false,
+        ["Auto Perfect"] = false,
+        ["Random Result"] = true,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -71,7 +71,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 10,
+            ["Luck Totem"] = 100,
         },
     },
     ["Event"] = {
