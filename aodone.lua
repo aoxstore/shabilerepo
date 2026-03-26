@@ -1,8 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = false,
-        ["Random Result"] = true,
+        ["Auto Perfect"] = true,
+        ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -61,6 +61,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Wind",
             "Cloudy",
             "Storm",
+            "Snow",
         },
     },
     ["Potions"] = {
@@ -71,7 +72,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 100,
+            ["Luck Totem"] = 100,
         },
     },
     ["Event"] = {
@@ -110,7 +111,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Floral Bait",
             "Singularity Bait",
         },
-        ["Endgame"] = "Floral Bait",
+        ["Endgame"] = "Singularity Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -124,7 +125,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Crystal Depths"] = {"Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Treasure Room",
     },
