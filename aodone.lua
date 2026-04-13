@@ -1,8 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = true,
-        ["Random Result"] = false,
+        ["Auto Perfect"] = false,
+        ["Random Result"] = true,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -10,20 +10,20 @@ _G.FishItConfig = _G.FishItConfig or {
             {Name = "Ruby", Variant = "Gemstone"},
         },
 
-        ["Auto Accept Trade"] = false,
+        ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"aodxsctumbal1"},
         ["Category Fish"] = {
-            "Secret",
+            "",
         },
         ["Fish Name"] = {
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {
-            "Evolved Enchant Stone",
+            "Eggy Enchant Stone",
         },
     },
     ["Farm Coin Only"] = {
@@ -33,7 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Mythic",
-        ["Auto Sell Every"] = 190,
+        ["Auto Sell Every"] = 50,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
@@ -48,11 +48,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "",
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1480867201194922077/DCUp7S3qkaA_lf5IfZMuLE3d4PqwcTHIjd_8HWPMktXfQN7uV2fzXm5VP0f0dFHmRQHy",
         ["Auto Sending"] = false,
         ["Category"] = {"Secret"},
 
-        ["Link Webhook Quest Complete"] = "",
+        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1480867278240092235/kNig-JxTskemWG4AwdZwKdD666ZaBRcDeizltPMILfaYPcJatVZ_moNuf_cxFa2XscDg",
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
@@ -61,7 +61,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Wind",
             "Cloudy",
             "Storm",
-            "Snow",
         },
     },
     ["Potions"] = {
@@ -69,10 +68,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = true,
+        ["Auto Use"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Luck Totem"] = 100,
+            ["Mutation Totem"] = 10,
         },
     },
     ["Event"] = {
@@ -83,11 +82,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true,
+        ["Auto Enchant"] = false,
+        ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Prismatic I",
+            "Cursed I",
         },
         ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
@@ -111,7 +110,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Floral Bait",
             "Singularity Bait",
         },
-        ["Endgame"] = "Singularity Bait",
+        ["Endgame"] = "Floral Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -125,9 +124,9 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Crystal Depths"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Easter Cave"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Treasure Room",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = false,
@@ -135,14 +134,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
-    ["AutoReconnect"] = true,
+    ["AutoReconnect"] = false,
     ["HideGUI"] = false,
-    ["EXIT_MAP_IF_DISCONNECT"] = false,
-
+    ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
-
-
-
-
-
-
